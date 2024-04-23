@@ -10,18 +10,25 @@ function BarraLateral() {
   return (
     <BarraLateral>
       {
-        <div className={styles.secondBar}>
-          <div className={styles.menu} id="myMenu">
-            <a href="#">Contact Us</a>
-            <a href="aboutUs.html" target="_blank">About Us</a>
+        <div>
+          <div className={styles.secondBar}>
+            <div className={styles.menu} id="myMenu">
+              <a href="#">Contact Us</a>
+              <a href="aboutUs.html" target="_blank">About Us</a>
+            </div>
+            <img src="menuLines.png" alt="Tu Imagen" className={styles.navImage} id="hamburger"></img>
+            
+            <ul className={styles.sidebarElements}>
+              <li>Purpose</li>
+              <li>Ecosystem</li>
+              <li>Content Type</li>
+              <li>Free or Subscription</li>
+              <li>License or open Source</li>
+            </ul>
           </div>
-          <img src="menuLines.png" alt="Tu Imagen" className={styles.navImage} id="hamburger"></img>
-
-          <nav className={styles.options}>
-            <a href="#">Contact Us</a>
-            <a href="aboutUs.html" target="_blank">About Us</a>
-          </nav>
-        </div>
+        </div>   
+        
+        
       }
     </BarraLateral>
   );

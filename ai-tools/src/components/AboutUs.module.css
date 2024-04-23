@@ -1,0 +1,111 @@
+.imageRow {
+    margin-top: -10px;
+    display: flex; /* Para usar flexbox y alinear las columnas */
+    justify-content: space-between; /* Para distribuir las columnas uniformemente */
+    flex-wrap: wrap; /* Para permitir que las columnas se envuelvan en múltiples líneas si no caben en una sola línea */
+}
+
+.column {
+    width: 17%; /* Cambia el ancho de las columnas según sea necesario */
+    margin-bottom: 20px; /* Espacio entre las columnas */
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex; /* Para usar flexbox */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.columnImg {
+    max-width: 100%; /* Establece el ancho máximo de las imágenes */
+    height: auto; /* Para mantener la proporción de aspecto */
+}
+
+.memberInfo {
+    text-align: center;
+}
+
+.memberRole {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px; /* Ajusta el margen superior según sea necesario */
+    font-style:italic;
+    text-align: center;
+}
+
+.memberExperience {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px; /* Ajusta el margen superior según sea necesario */
+    text-align: left; /* Alinea el texto a la izquierda */
+    max-width: 100%; /* Evita que el texto supere el ancho de la columna */
+    justify-content: center;
+    text-align: justify;
+}
+
+.memberName {
+    margin-top: 8px;
+    font-weight: 900;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 15%; 
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 800;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.imageRow {
+    margin-top: -10px;
+    display: flex; /* Para usar flexbox y alinear las columnas */
+    justify-content: space-between; /* Para distribuir las columnas uniformemente */
+    flex-wrap: wrap; /* Para permitir que las columnas se envuelvan en múltiples líneas si no caben en una sola línea */
+}
+
+.column {
+    width: 17%; /* Cambia el ancho de las columnas según sea necesario */
+    margin-bottom: 20px; /* Espacio entre las columnas */
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex; /* Para usar flexbox */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.topBar {
+    height: 70px; 
+    width: 100%;
+    background-color: #111823;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0; 
+}
+
+.secondBar {
+    height: 40px;
+    width: 100%;
+    background-color: #D3D3D4;
+    display: flex; 
+    font-family: 'Nunito';
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0; 
+}

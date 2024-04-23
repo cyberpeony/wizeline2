@@ -32,3 +32,13 @@
     color: black;
     margin: 0 10px;
 }
+
+.sidebarElement{
+    font-family: 'Nunito';
+    text-align: left;
+    color: black;
+}
+
+.sidebarElement {
+    background-color: #111823;
+}
