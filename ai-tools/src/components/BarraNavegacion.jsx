@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Barra-navegacion.module.css';
+import styles from './BarraNavegacion.module.css';
 
 function BarraNavegacion() {
     return (
