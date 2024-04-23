@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 800;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 600;
+    margin-top: -20px;
+}

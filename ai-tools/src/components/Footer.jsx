@@ -5,11 +5,11 @@ function Footer() {
   return (
     <Footer>
       {
-        <div class="footer-container">
-        <div class="logo-container">
+        <footer className={styles.footerContainer}>
+        <div className={styles.logoContainer}>
             <img src="navLogo.png" alt="Wizeline Logo Footer"></img>
         </div>
-        <div class="social-links">
+        <div className={styles.socialLinks}>
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50"
                 style="fill:#FFFFFF;">
                 <path
@@ -24,16 +24,16 @@ function Footer() {
             </svg>
 
         </div>
-        <div class="copyright">
+        <div className={styles.copyright}>
             &copy; 2024 Wizeline. All rights reserved.
         </div>
-        <div class="contacts">
+        <div className={styles.contacts}>
             <span style="margin-right: 20px;">Email: contact@wizeline.com</span>
             <span style="margin-left: 20px;">Call us: 888-386-9493</span>
         </div>
-        <div class="contact-phone">
+        <div className={styles.contactPhone}>
         </div>
-    </div>
+    </footer>
       }
     </Footer>
   );

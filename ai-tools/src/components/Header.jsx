@@ -4,7 +4,10 @@ import styles from './Header.module.css';
 function Header() {
     return (
       <Header>
-        {/* HTML del Header aquí */}
+        <div className={styles.topBar}>
+          <img src="navLogo.png" alt="Logo" className={styles.logo}></img>
+          <input type="text" placeholder="Search..." className={styles.searchBar}></input>
+        </div>
       </Header>
     );
   }
