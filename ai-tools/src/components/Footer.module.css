@@ -1,0 +1,45 @@
+footer {
+    background-color: #222529;
+    color: #fafafa;
+    font-family: 'Nunito';
+    padding: 20px;
+    text-align: center; /* Centra el contenido del footer */
+}
+
+.footerContainer {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si es necesario */
+}
+
+.logoContainer img {
+    justify-content: center;
+    width: 40%; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+}
+
+.logoContainer, .social-links {
+    display: block;
+}
+
+.socialLinks {
+    width: 100%;   
+}
+
+.copyright {
+    width: 100%;
+    color: lightgray;
+    font-size: 12px;
+    font-family: 'Nunito';
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contacts {
+    font-size: 12px;
+    margin-top: 1px; /* Añade espacio entre el correo electrónico y otros elementos */
+}
