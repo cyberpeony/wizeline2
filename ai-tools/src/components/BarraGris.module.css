@@ -1,8 +1,4 @@
-#myMenu {
-    display: none;
-}
-
-.secondBar {
+.second-bar {
     height: 40px;
     width: 100%;
     background-color: #D3D3D4;
@@ -13,7 +9,7 @@
     padding: 0; 
 }
 
-.navImage {
+.nav-image {
     width: 50px; /* Ajusta el ancho de la imagen según sea necesario */
     height: auto; /* Para mantener la proporción */
     margin-right: -35px; /* Espacio entre la imagen y las opciones */
@@ -24,7 +20,7 @@
     align-items: center;
 }
 
-.options:lastChild {
+.options:last-child {
     margin-left: auto; /* Mantiene la última opción (Categories) a la derecha */
 }
 

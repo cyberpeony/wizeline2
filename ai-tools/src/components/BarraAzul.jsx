@@ -1,15 +1,15 @@
 import React from 'react';
-import styles from './Header.module.css';
+import styles from './BarraAzul.module.css';
 
-function Header() {
+function BarraAzul() {
     return (
-      <Header>
+      <BarraAzul>
         <div className={styles.topBar}>
           <img src="navLogo.png" alt="Logo" className={styles.logo}></img>
           <input type="text" placeholder="Search..." className={styles.searchBar}></input>
         </div>
-      </Header>
+      </BarraAzul>
     );
   }
   
-  export default Header;
+  export default BarraAzul;
