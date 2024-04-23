@@ -1,10 +1,8 @@
-{
-    ".arc image": {
-      "transition": "transform 0.3s ease, opacity 0.3s ease"
-    },
-    ".arc image:hover": {
-      "opacity": "0.7",
-      "transform": "scale(1.02)"
-    }
-  }
-  
+.arc image {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.arc image:hover {
+  opacity: 0.7;
+  transform: scale(1.02);
+}

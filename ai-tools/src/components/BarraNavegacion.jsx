@@ -4,16 +4,14 @@ import styles from './BarraNavegacion.module.css';
 function BarraNavegacion() {
     return (
       <BarraNavegacion>
-         <div className="second-bar">
-        
-        <div className="menu" id="myMenu">
+         <div className={styles.secondBar}>  
+        <div className={styles.menu} id="myMenu">
             <a href="#">Contact Us</a>
-
             <a href="aboutUs.html" target="_blank">About Us</a>
         </div>
-        <img src="menuLines.png" alt="Tu Imagen" className="nav-image" id="hamburger"></img>
+        <img src="menuLines.png" alt="Tu Imagen" className={styles.navImage} id="hamburger"></img>
 
-        <nav className="options">
+        <nav className={styles.options}>
             <a href="#">Contact Us</a>
             <a href="aboutUs.html" target="_blank">About Us</a>
         </nav>
