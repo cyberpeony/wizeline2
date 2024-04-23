@@ -5,7 +5,7 @@ function Herramienta() {
     return (
       <Herramienta>
         {
-         {/* HTML de la ruleta aquí */}
+         {}
         }
       </Herramienta>
     );

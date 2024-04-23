@@ -4,7 +4,7 @@ import styles from './Ruleta.module.css';
 function Ruleta() {
   return (
     <Ruleta>
-
+      {}
     </Ruleta>
   );
 }

@@ -4,7 +4,7 @@ import styles from './Slice.module.css';
 function Slice() {
     return (
       <Slice>
-        {/* HTML del slice aquí */}
+        {}
       </Slice>
     );
   }
